@@ -79,6 +79,14 @@ This script will allow you with simple `python3 sendot_serial_log.py` to make me
 
 Im my case, this scrip is called from another scrip depending to light conditions - every minutes I check for presence of light, and if light is present, I call log script, and then next measurement is doen after 5 cycles of photoperiod detecting, while during the night I perform measurement every hour.
 
+#### Checking connection with miniterm.py
+
+If you still is not sure whether connection is working or not, you can check it with following command, just be sure that you change to port what you have:
+
+`python3 -m serial.tools.miniterm /dev/ttyUSB0 19200`
+
+This should open a miniterm, where after each automated measurement timed by Sendot device you should see the output of measurements. To quit miniterm, simply type `Ctrl+]` and you are out. 
+
 #### Last remarks
 
 This script is available as is without any liability, and user of this script should fully understand that this script is written by person with minimal knowledge in programming.
