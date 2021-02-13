@@ -73,7 +73,7 @@ To get you going, last things you need to do:
 time; eff; umol; fmin; fmax
 
 ```
-* in file `sendot_serial_log.py` in 8th line change existing link to link to your file. 
+* in file `sendot_serial_log.py` in 8th line change existing link with link to your file. 
 
 This script will allow you with simple `python3 sendot_serial_log.py` to make measurement and to save it to file.
 
