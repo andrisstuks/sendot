@@ -91,4 +91,4 @@ This should open a miniterm, where after each automated measurement timed by Sen
 
 This script is available as is without any liability, and user of this script should fully understand that this script is written by person with minimal knowledge in programming.
 
-It was not easy to get this going, as this was firsttime when I had a need to write somethin for serial communication, but for me this script works out pretty well, despite the fact taht I am not fully aware what is going on under the hood.
+It was not easy to get this going, as this was first time when I had a need to write something for serial communication, but for me this script works out pretty well, despite the fact that I am not fully aware what is going on under the hood.
