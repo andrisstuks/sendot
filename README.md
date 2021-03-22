@@ -87,6 +87,8 @@ If you still is not sure whether connection is working or not, you can check it 
 
 This should open a miniterm, where after each automated measurement timed by Sendot device you should see the output of measurements. To quit miniterm, simply type `Ctrl+]` and you are out. 
 
+Please bear in mind, that miniterm, if activated, will disrupt data receiving to python script. This one I need to check with producer.
+
 #### Last remarks
 
 This script is available as is without any liability, and user of this script should fully understand that this script is written by person with minimal knowledge in programming.
